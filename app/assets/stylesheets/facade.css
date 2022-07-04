@@ -1,0 +1,36 @@
+.fullscreen {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  max-width: 1000px;
+  padding: 48px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  gap: 150px;
+}
+
+.aside-image {
+  max-width: 380px;
+}
+
+@media (max-width: 900px) {
+  .fullscreen {
+    height: auto;
+  }
+
+  .row {
+    flex-direction: column;
+    gap: 20px;
+  }
+}

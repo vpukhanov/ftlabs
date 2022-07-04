@@ -13,3 +13,23 @@
  *= require_tree .
  *= require_self
  */
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+}
+
+.heading {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.caption {
+  font-size: 24px;
+  font-weight: medium;
+}
