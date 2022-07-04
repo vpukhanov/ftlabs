@@ -3,9 +3,14 @@
         <div>
             <h1 class="heading">FT Labs</h1>
             <p class="caption">We watch your website to make sure it&nbsp;works fast and doesn’t skip a beat.</p>
+            <div data-sendsay-form-embedded="x_1656857483717809/1"></div>
         </div>
         <div>
             <%= image_tag 'landing.png', class: 'aside-image' %>
         </div>
     </div>
 </main>
+
+<% content_for :head do %>
+    <script src="https://image.sendsay.ru/app/js/forms/forms.min.js"></script>
+<% end %>
